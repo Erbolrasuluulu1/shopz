@@ -16,7 +16,7 @@ const ProductDetails = () => {
         <div className="flex justify-center py-[50px] min-h-[90vh]">
             <div className="flex items-center w-[70%] justify-between">
                 <div className='relative'>
-                    <h2 className="top-[-10px] text-yellow-500 shadow-zinc-50 text-1xl flex absolute z-10 items-center justify-center bg-blue-600 w-[80px] h-[80px]  ml-[300px] font-bold tracking-tight text-gray-900 dark:text-amber-300">{details.price}$</h2>
+                    <h2 className="top-[50px] left-12 text-yellow-500 shadow-zinc-50 rounded-[50%] text-1xl flex absolute z-10 items-center justify-center bg-blue-600 w-[80px] h-[80px]  ml-[300px] font-bold tracking-tight text-gray-900 dark:text-amber-300">{details.price}$</h2>
                     <img className="mx-28 mt-20  z-0   rounded-2xl " src={details.image} width={250} alt="img"/>
                 </div>
                     <div className="flex flex-col ml-[250px]  justify-between p-4 leading-normal">
